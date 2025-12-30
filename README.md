@@ -5,6 +5,10 @@
 **FastQC** is widely used and is robust, efficient, and versatile quality control software for a varied range of raw genetic data. It outputs a quality report which can be viewed to give an indication on how good the respective reads are. For more information, please visit the FastQC website https://www.bioinformatics.babraham.ac.uk/projects/fastqc/.
 
 **NanoPlot** is a plotting tool for long read sequencing data and alignments. https://github.com/wdecoster/NanoPlot
+<img width="600" height="600" alt="LengthvsQualityScatterPlot_kde" src="https://github.com/user-attachments/assets/24e4bf39-51ae-4731-9799-47abd99757ce" />
+
+<img width="600" height="600" alt="LengthvsQualityScatterPlot_kde" src="https://github.com/user-attachments/assets/d47da435-07a7-4cd2-aff8-e1a199ae4393" />
+
 
 **Filtlong** is a tool for filtering long reads by quality. It can take a set of long reads and produce a smaller, better subset. It uses both read length (longer is better) and read identity (higher is better) when choosing which reads pass the filter. https://github.com/rrwick/Filtlong
 
