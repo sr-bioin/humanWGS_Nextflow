@@ -92,7 +92,7 @@ process FILTLONG {
     output:
     path "long_reads.filtered.fastq.gz", emit: filtered_long
 
-    conda '/home/shree/anaconda3/envs/FILTLONG'
+    conda '/home/anaconda3/envs/FILTLONG'
 
     script:
     """
@@ -144,7 +144,7 @@ process RATATOSK {
     output:
     path "long_reads.corrected.fastq.gz", emit: corrected_long
 
-    conda '/home/shree/anaconda3/envs/RATATOSK'
+    conda '/home/anaconda3/envs/RATATOSK'
 
     script:
     """
@@ -199,7 +199,7 @@ process FLYE {
     output:
     path("assembly.fasta"), emit: draft_assembly
 
-    conda '/home/shree/anaconda3/envs/flye_env'
+    conda '/home/anaconda3/envs/flye_env'
 
     script:
     """
@@ -223,7 +223,7 @@ process RACON {
     output:
     path "assembly.racon2.fasta", emit: racon_polished
 
-    conda '/home/shree/anaconda3/envs/RACON'
+    conda '/home/anaconda3/envs/RACON'
 
     script:
     """
@@ -254,7 +254,7 @@ process PILON {
     path "${sample_id}.pilon.fasta", emit: pilon_polished
     path "${sample_id}.pilon.changes", emit: pilon_changes
 
-    conda '/home/shree/anaconda3/envs/PILON'
+    conda '/home/anaconda3/envs/PILON'
 
     script:
     """
@@ -301,7 +301,7 @@ process PURGE_DUPS {
     path "assembly.purged.fasta", emit: purged_assembly
     path "purged.bed", emit: purged_bed
 
-    conda '/home/shree/anaconda3/envs/purge_dups'
+    conda '/home/anaconda3/envs/purge_dups'
 
     script:
     """
@@ -355,7 +355,7 @@ process RAGTAG {
     output:
     path "assembly.ragtag.fasta", emit: ragtag_assembly
 
-    conda '/home/shree/anaconda3/envs/ragtag'
+    conda '/home/anaconda3/envs/ragtag'
 
     script:
     """
@@ -378,7 +378,7 @@ process TGS_GAPCLOSER {
     output:
     path("assembly.gapclosed.fasta"), emit: gapclosed_assembly
 
-    conda '/home/shree/anaconda3/envs/TGS_GAPCLOSER'
+    conda '/home/anaconda3/envs/TGS_GAPCLOSER'
 
     script:
     """
@@ -431,7 +431,7 @@ process MERQURY {
     path "${sample}.meryl", emit: meryl_db
     path "merqury_output", emit: reports
 
-    conda '/home/shree/anaconda3/envs/MERQURY'
+    conda '/home/anaconda3/envs/MERQURY'
 
     script:
     """
