@@ -2,7 +2,7 @@
 
 ## Software used in the pipeline
 
-### <u>Data processing and QC </u>
+<h3><u>Data processing and QC</u></h3>
 **FastQC** is widely used and is robust, efficient, and versatile quality control software for a varied range of raw genetic data. It outputs a quality report which can be viewed to give an indication on how good the respective reads are. For more information, please visit the FastQC website https://www.bioinformatics.babraham.ac.uk/projects/fastqc/.
 
 **NanoPlot** is a plotting tool for long read sequencing data and alignments. https://github.com/wdecoster/NanoPlot
