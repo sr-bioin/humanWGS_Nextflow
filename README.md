@@ -1,6 +1,6 @@
 <h2>Nextflow pipeline for whole genome sequence analysis of Human genome (Chr2) using NanoPore/Illumina Hybrid sequence </h2>
 
-<h3>Software used in the pipeline.</h3>
+## Software used in the pipeline
 
 ### Data processing and QC 
 **FastQC** is widely used and is robust, efficient, and versatile quality control software for a varied range of raw genetic data. It outputs a quality report which can be viewed to give an indication on how good the respective reads are. For more information, please visit the FastQC website https://www.bioinformatics.babraham.ac.uk/projects/fastqc/.
