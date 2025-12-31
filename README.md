@@ -1,4 +1,4 @@
-<h2>Nextflow pipeline for whole genome sequence analysis of Human genome (Chr2) using NanoPore/Illumina Hybrid sequence </h2>
+<h2>Nextflow pipeline for hybrid whole genome denovo sequence analysis of Human genome (Chr2) using NanoPore/Illumina sequence </h2>
 
 ## Software used in the pipeline
 
